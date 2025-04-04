@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PPPlayground"; /* Nombre para referenciar la fuente */
+  src: url("/src/assets/fonts/PPPlayground-Medium.otf") format("opentype"); /* Ruta a tu archivo .otf */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPEditorialOld";
+  src: url("/src/assets/fonts/PPEditorialOld-Ultralight.otf") format("opentype"),
+    url("/src/assets/fonts/PPEditorialOld-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPEditorialOld";
+  src: url("/src/assets/fonts/PPEditorialOld-UltralightItalic.otf")
+    format("opentype");
+  font-weight: lighter;
+  font-style: italic;
+}
