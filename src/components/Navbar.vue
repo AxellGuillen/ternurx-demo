@@ -1,11 +1,11 @@
 <script setup>
 const links = [
   {
-    label: "Tienda",
+    label: "Store",
     path: "/tienda",
   },
   {
-    label: "exhibiciones",
+    label: "exhibitions",
     path: "/exhibiciones",
   },
   {
@@ -33,7 +33,7 @@ const links = [
     <p
       class="font-editorial font-bold text-2xl h-full flex items-center px-[30px] bg-white transition-colors duration-300 hover:text-pinkish uppercase cursor-crosshair"
     >
-      contacto
+      Contact
     </p>
   </div>
 </template>
